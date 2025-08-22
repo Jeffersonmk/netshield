@@ -127,3 +127,49 @@ nav a {
     font-weight: 600;
     font-size: 40px;
 }
+
+.segmented {
+    display: inline-flex; /* Coloca os botões lado a lado. */
+    border: 1px solid #999;
+    border-radius: 15px;
+    overflow: hidden; /* Faz com que os botões “encaixem” dentro da borda arredondada, sem sair para fora. */
+    margin-top: 50px;
+}
+
+.segmented button {
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    background: white;
+    padding: 20px 40px;
+    cursor: pointer;
+    transition: background 0.2s; /* Faz a troca de cor do hover ser suave. */
+    font-size: 20px;
+}
+
+/* Adiciona uma linha divisória à direita de todos os botões,
+   exceto o último (para não ficar com borda dupla no final) */
+.segmented button:not(:last-child) {
+    border-right: 1px solid #999; 
+}
+
+/* Quando o mouse passa em cima do botão,
+   o fundo muda para cinza claro */
+.segmented button:hover {
+    background: #f0f0f0;
+}
+
+/* Define o botão ativo (selecionado):
+   fundo cinza mais escuro e texto em negrito */
+.segmented button.active {
+    background: #ddd;
+    font-weight: bold;
+}
+
+/* Estilo específico para o texto do desconto (-20%):
+   cor laranja, em negrito e com espaço antes do texto */
+.segmented .discount {
+    color: #e67e22; /* laranja */
+    font-weight: bold;
+    margin-left: 4px;
+}
+
