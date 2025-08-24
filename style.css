@@ -175,11 +175,64 @@ nav a {
 
 .planos {
     display: flex;
-    background-color: white;
-    border-radius: 10px;
-    width: 300px;
-    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 30px;
 }
+
+.card-preco {
+    margin-top: 100px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 60px 30px 30px 60px;
+    width: 401px;
+    height: 400px;
+    border: solid 2px black;
+}
+
+.card-preco ul {
+    list-style: none;
+}
+
+.card-preco h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+.card-preco h2 {
+    color: #656363;
+}
+
+.card-preco h2,
+.card-preco h3 {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+.preco {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+}
+
+.card-preco ul li {
+    font-family: "Montserrat", sans-serif;
+}
+
+.card-preco button {
+    background-color: #30A660;
+    color: white;
+    width: 300px;
+    height: 59px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
 
 
 
