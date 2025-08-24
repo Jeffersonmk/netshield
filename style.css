@@ -185,9 +185,9 @@ nav a {
     margin-top: 100px;
     background-color: white;
     border-radius: 20px;
-    padding: 60px 30px 30px 60px;
+    padding: 30px 50px 30px 40px;
     width: 401px;
-    height: 400px;
+    height: 500px;
     border: solid 2px black;
 }
 
@@ -197,12 +197,12 @@ nav a {
 
 .card-preco h1 {
     font-family: "Montserrat", sans-serif;
-    font-weight: bold;
     color: black;
 }
 
 .card-preco h2 {
     color: #656363;
+    margin-bottom: 10px;
 }
 
 .card-preco h2,
@@ -211,15 +211,31 @@ nav a {
     font-weight: 400;
 }
 
+.card-preco h3 {
+    margin-bottom: 10px;
+}
+
 .preco {
     color: black;
     font-family: "Montserrat", sans-serif;
-    font-weight: 900;
+    margin-bottom: 20px;
+    font-weight: 800;
 }
+
 
 .card-preco ul li {
     font-family: "Montserrat", sans-serif;
 }
+
+.card-preco ul {
+    list-style: none;
+    display: flex;              /* ativa flexbox na lista */
+    flex-direction: column;     /* organiza os itens em coluna */
+    height: 50%;                /* garante altura fixa relativa ao card */
+    /* Isso, junto com margin-top:auto no botão,
+       faz o botão ser empurrado para o fundo do card */
+}
+
 
 .card-preco button {
     background-color: #30A660;
@@ -231,8 +247,9 @@ nav a {
     font-size: 30px;
     border-radius: 10px;
     cursor: pointer;
+    margin-top: auto; /* força o botão a ir para o fundo */
 }
 
-
-
+.preco { transition: opacity .25s ease; }
+.preco.changing { opacity: 0; }
 
