@@ -250,6 +250,50 @@ nav a {
     margin-top: auto; /* força o botão a ir para o fundo */
 }
 
+.relato-clientes {
+    margin-top: 80px;
+}
+
+.relato-clientes h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: black;
+    text-align: center;
+}
+
+.card-relato {
+    margin-top: 80px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px 50px 30px 40px;
+    width: 401px;
+    height: 300px;
+    border: solid 2px black;
+}
+
+.card-relato p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.estrelas {
+    display: flex;              /* coloca as estrelas lado a lado */
+    justify-content: center;    /* centraliza horizontalmente */
+    gap: 5px;                   /* espaço entre as estrelas */
+}
+
+.card-group {
+    display: flex;
+    justify-content: center;
+    gap: 54px;
+}
+
 .preco { transition: opacity .25s ease; }
 .preco.changing { opacity: 0; }
+
+
 
