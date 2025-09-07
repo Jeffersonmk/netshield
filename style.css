@@ -320,4 +320,47 @@ nav a {
 .preco.changing { opacity: 0; }
 
 
+.hamburguer {
+        display: none;
+        width: 30px;
+        height: 22px;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-right: 20px;
+    }
+
+    .logo {
+        margin-left: 20px;
+    }
+
+@media (max-width: 768px) {
+    .ad-header {
+        display: none;
+    }
+
+    header {
+        margin-top: 0;
+        display: flex;
+        justify-content: space-between;
+        background-color: #000000;
+    }
+
+    .hamburguer {
+        display: flex;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .hamburguer span {
+        display: block;
+        height: 4px;
+        width: 100%;
+        background-color: white;
+        border-radius: 2px;
+        transition: 0.3s;
+    }
+}
+
 
