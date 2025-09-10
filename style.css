@@ -349,7 +349,11 @@ nav a {
         display: flex;
     }
 
-    .menu {
+    #menu li a {
+        color: white;
+    }
+    
+    nav {
         display: none;
     }
 
@@ -361,6 +365,22 @@ nav a {
         border-radius: 2px;
         transition: 0.3s;
     }
+
+
+    #login-button {
+        display: none;
+    }
+
+
+    #menu.active {
+        display: flex;
+    }
+
+    #menu ul {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
 
 

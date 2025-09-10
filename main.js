@@ -82,3 +82,7 @@ if (closeBtn) {
     if (adHeader) adHeader.remove();
     });
 }
+
+function toggleMenu() {
+    document.getElementById("menu").classList.toggle("active");
+}
