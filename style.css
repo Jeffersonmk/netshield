@@ -343,7 +343,14 @@ nav a {
         display: flex;
         justify-content: space-between;
         background-color: #000000;
+        flex-wrap: wrap;
     }
+
+
+    #menu {
+        margin-top: 20px;
+    }
+
 
     .hamburguer {
         display: flex;
@@ -355,12 +362,12 @@ nav a {
     
     nav {
         display: none;
+        width: 100%;  /* <- permite quebrar linha */
     }
 
     .hamburguer span {
         display: block;
         height: 4px;
-        width: 100%;
         background-color: white;
         border-radius: 2px;
         transition: 0.3s;
@@ -373,14 +380,26 @@ nav a {
 
 
     #menu.active {
-        display: flex;
+        display: block;
+        width: 100%;
+    }
+
+    #login-button {
+        display: block; 
+        margin: 0 auto;
+        border: none;
+        background-color: #000000;
+        color: white;
+        font-weight: 400;
+        margin-top: 30px;
+        margin-bottom: 20px;
     }
 
     #menu ul {
         display: flex;
         flex-direction: column;
+        gap: 40px;
     }
-
 }
 
 
