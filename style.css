@@ -343,7 +343,7 @@ nav a {
         display: flex;
         justify-content: space-between;
         background-color: #000000;
-        flex-wrap: wrap;
+        flex-wrap: wrap; /* Os itens iram preencher outra linha quando não houver espaço*/
     }
 
 
@@ -373,11 +373,9 @@ nav a {
         transition: 0.3s;
     }
 
-
     #login-button {
         display: none;
     }
-
 
     #menu.active {
         display: block;
@@ -399,6 +397,23 @@ nav a {
         display: flex;
         flex-direction: column;
         gap: 40px;
+    }
+
+    .planos {
+        flex-direction: column;
+    }
+
+    .headline {
+        margin-top: -60px;
+    }
+
+    .headline h1 {
+        font-size: 50px;
+    }
+
+    .headline h2 {
+        font-size: 30px;
+        margin: 30px 10px 0 10px;
     }
 }
 
