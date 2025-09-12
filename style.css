@@ -346,11 +346,9 @@ nav a {
         flex-wrap: wrap; /* Os itens iram preencher outra linha quando não houver espaço*/
     }
 
-
     #menu {
         margin-top: 20px;
     }
-
 
     .hamburguer {
         display: flex;
@@ -414,6 +412,33 @@ nav a {
     .headline h2 {
         font-size: 30px;
         margin: 30px 10px 0 10px;
+    }
+
+    .card-group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .relato-clientes h1 {
+        font-size: 50px;
+        margin: 0 10px 10px 0;
+    }
+
+    .card-relato {
+        height: 580px;
+        width: 90%;
+    }
+
+    .card-relato p {
+        font-size: 35px;
+    }
+
+    .estrelas img {
+        width: 80px;
+        height: 80px;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 }
 
