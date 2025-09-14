@@ -222,7 +222,6 @@ nav a {
     font-weight: 800;
 }
 
-
 .card-preco ul li {
     font-family: "Montserrat", sans-serif;
 }
@@ -235,7 +234,6 @@ nav a {
     /* Isso, junto com margin-top:auto no botão,
        faz o botão ser empurrado para o fundo do card */
 }
-
 
 .card-preco button {
     background-color: #30A660;
@@ -398,6 +396,7 @@ nav a {
     }
 
     .planos {
+        gap: 5px;
         flex-direction: column;
     }
 
@@ -427,6 +426,7 @@ nav a {
     }
 
     .card-relato {
+        margin-top: 30px;
         height: 580px;
         width: 90%;
     }
@@ -443,6 +443,7 @@ nav a {
     }
 
     .card-preco {
+        margin-top: 30px;
         height: 600px;
         width: 90%;
     }
@@ -464,9 +465,38 @@ nav a {
     }
 
     #btn1 {
+        margin-top: 30px;
+    }
+
+    #btn1,
+    #btn2,
+    #btn3 {
+        width: 530px;
+        height: 70px;
+    }
+
+    #btn3 {
+        margin-top: 30px;
+    }
+
+    #cardp2 {
+        height: 630px;
+    }
+
+    #cardp3 {
+        height: 710px;
+    }
+
+    .button-preco {
         display: block;
         margin: auto;
-        margin-top: 30px;
-        width: 530px;
+    }
+
+    .segmented {
+        margin-bottom: 20px;
+    }
+
+    .footer {
+        margin-top: 60px;
     }
 }
