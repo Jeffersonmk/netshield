@@ -405,11 +405,11 @@ nav a {
     }
 
     .headline h1 {
-        font-size: 50px;
+        font-size: 80px;
     }
 
     .headline h2 {
-        font-size: 30px;
+        font-size: 40px;
         margin: 30px 10px 0 10px;
     }
 
@@ -498,5 +498,10 @@ nav a {
 
     .footer {
         margin-top: 60px;
+    }
+
+    .segmented button {
+        padding: 20px 80px;
+        font-size: 30px;
     }
 }
