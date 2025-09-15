@@ -406,6 +406,7 @@ nav a {
 
     .headline h1 {
         font-size: 80px;
+        margin: 120px 10px 0 10px;
     }
 
     .headline h2 {
@@ -422,7 +423,7 @@ nav a {
 
     .relato-clientes h1 {
         font-size: 50px;
-        margin: 0 10px 10px 0;
+        margin: 10px 60px 20px 60px;
     }
 
     .card-relato {
@@ -484,7 +485,7 @@ nav a {
     }
 
     #cardp3 {
-        height: 710px;
+        height: 640px;
     }
 
     .button-preco {
@@ -501,7 +502,11 @@ nav a {
     }
 
     .segmented button {
-        padding: 20px 80px;
+        padding: 20px 95px;
         font-size: 30px;
     }
+}
+
+@media (max-width: 480px) { 
+
 }
