@@ -508,5 +508,20 @@ nav a {
 }
 
 @media (max-width: 480px) { 
+    header {
+        width: 125%;
+    }
 
+    .headline h1 {
+        font-size: 40px;
+    }
+
+    .headline h2 {
+        font-size: 25px;
+    }
+
+    .segmented button {
+        padding: 20px 40px;
+        font-size: 20px;
+    }
 }
