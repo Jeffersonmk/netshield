@@ -509,11 +509,13 @@ nav a {
 
 @media (max-width: 480px) { 
     header {
-        width: 125%;
+        width: 100%;
     }
 
     .headline h1 {
         font-size: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     .headline h2 {
@@ -524,4 +526,28 @@ nav a {
         padding: 20px 40px;
         font-size: 20px;
     }
+
+    .card-preco h1 {
+        font-size: 40px;
+    }
+
+    .card-preco h2 {
+        font-size: 25px;
+    }
+
+    #btn1,
+    #btn2,
+    #btn3 {
+        width: 350px;
+        height: 60px;
+    }
+
+    #cardp3 {
+        height: 710px;
+    }
+
+    #cardp1 {
+        height: 560px;
+    }
+
 }
