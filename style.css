@@ -507,6 +507,42 @@ nav a {
     }
 }
 
+@media (max-width: 600px) { 
+    .headline h1 {
+        font-size: 75px;
+    }
+
+    .headline h2 {
+        font-size: 35px;
+    }
+
+    .segmented button {
+        padding: 30px 45px;
+        font-size: 25px;
+    }
+
+    #btn1,
+    #btn2,
+    #btn3 {
+        width: 350px;
+        height: 70px;
+        font-size: 35px;
+    }
+
+    #cardp1 {
+        height: 650px;
+    }
+
+    #cardp2 {
+        height: 770px;
+    }
+
+    #cardp3 {
+        height: 750px;
+    }
+}
+
+
 @media (max-width: 480px) { 
     header {
         width: 100%;
@@ -544,6 +580,10 @@ nav a {
 
     #cardp3 {
         height: 710px;
+    }
+
+    #cardp2 {
+        height: 630px;
     }
 
     #cardp1 {
@@ -657,8 +697,12 @@ nav a {
         font-size: 25px;
     }
 
+    #cardp2 {
+        height: 610px;
+    }
+
     #cardp3 {
-        height: 600px;
+        height: 580px;
     }
 
     .relato-clientes h1 {
@@ -666,40 +710,6 @@ nav a {
     }
 }
 
-@media (max-width: 600px) { 
-    .headline h1 {
-        font-size: 75px;
-    }
-
-    .headline h2 {
-        font-size: 35px;
-    }
-
-    .segmented button {
-        padding: 30px 45px;
-        font-size: 25px;
-    }
-
-    #btn1,
-    #btn2,
-    #btn3 {
-        width: 350px;
-        height: 70px;
-        font-size: 35px;
-    }
-
-    #cardp1 {
-        height: 650px;
-    }
-
-    #cardp2 {
-        height: 770px;
-    }
-
-    #cardp3 {
-        height: 750px;
-    }
-}
 
 
 
