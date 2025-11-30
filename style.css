@@ -667,7 +667,38 @@ nav a {
 }
 
 @media (max-width: 600px) { 
-    
+    .headline h1 {
+        font-size: 75px;
+    }
+
+    .headline h2 {
+        font-size: 35px;
+    }
+
+    .segmented button {
+        padding: 30px 45px;
+        font-size: 25px;
+    }
+
+    #btn1,
+    #btn2,
+    #btn3 {
+        width: 350px;
+        height: 70px;
+        font-size: 35px;
+    }
+
+    #cardp1 {
+        height: 650px;
+    }
+
+    #cardp2 {
+        height: 770px;
+    }
+
+    #cardp3 {
+        height: 750px;
+    }
 }
 
 
