@@ -574,5 +574,101 @@ nav a {
     .footer-links a {
         font-size: 15px;
     }
-
 }
+
+@media (max-width: 360px) {
+    .logo h1 {
+        font-size: 25px;
+    }
+
+    .logo img {
+        height: 50px;
+        width: 50px;
+    }
+
+    #menu li a {
+        font-size: 20px;
+    }
+
+    #login-button {
+        font-size: 20px;
+    }
+
+    .headline h1 {
+        font-size: 30px;
+    }
+
+    .headline h2 {
+        font-size: 25px;
+    }
+
+    .segmented button {
+        padding: 18px 35px;
+        font-size: 18px;
+    }
+
+    .card-preco h1 {
+        font-size: 30px;
+    }
+
+    .card-preco h2 {
+        font-size: 20px;
+    }
+
+    #btn1,
+    #btn2,
+    #btn3 {
+        width: 250px;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    .relato-clientes h1 {
+        font-size: 40px;
+    }
+
+    .estrelas img {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 20px;
+    }
+
+    .card-relato p {
+        font-size: 20px;
+    }
+
+    .card-relato {
+        height: 390px;
+    }
+
+    .footer p {
+        font-size: 12px;
+    }
+
+    .footer-links a {
+        font-size: 12px;
+    }
+
+    .card-preco ul li {
+        font-size: 20px;
+    }
+
+    .planos h3 {
+        font-size: 25px;
+    }
+
+    #cardp3 {
+        height: 600px;
+    }
+
+    .relato-clientes h1 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 600px) { 
+    
+}
+
+
+
